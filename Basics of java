@@ -1,0 +1,733 @@
+package kim;
+import java.util.Scanner;
+public class hello {
+
+	public static void main(String[] args) {
+		/*
+System.out.println("hello pranav");
+
+	}
+
+}
+*/
+		/*
+		int a=10,b=20;
+		System.out.println(a);
+		System.out.println(b);
+	}
+}
+*/
+		/*
+	int a=10;
+	float f=9.89f;
+	char c='A';
+	System.out.println(a);
+	System.out.println(f);
+	System.out.println(c);
+	}
+}
+*/
+		/*
+		int a=10,b=20;
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);
+	}
+}
+*/
+		/*
+		int n=5;
+		if(n%2==0)
+		{
+			System.out.println("even number");
+		}
+		else
+			System.out.println("odd number");
+	}
+}
+*/
+		/*
+		int n=1;
+		if(n>0)
+		{
+			System.out.println("positive number");
+		}
+		else
+		{
+			System.out.println("negative number");
+		}
+	}
+}
+*/
+		/*
+		int n=4,i,fact=1;
+		for(i=1;i<=5;i++)
+		{
+			fact=fact*i;
+			
+		}
+		System.out.println(fact);
+	}
+}
+*/
+		/*
+		int n=4,i,count=0;
+		for(i=1;i<=n;i++)
+		{
+			if(n%i==0)
+			{
+				count++;
+			}
+		}
+		if(count==2)
+		{
+			System.out.println("prime number");
+		}
+		else
+		{
+			System.out.println("not a prime number");
+		}
+			
+		}
+}
+*/
+		/*
+		int age=18;
+		if(age>=18)
+		{
+			System.out.println("you can vote");
+		}
+		else
+		{
+			System.out.println("you cannot vote");
+		}
+	}
+}
+*/
+		/*
+		int i;
+		for(i=1;i<=5;i++)
+		System.out.println(i);
+	}
+}
+*/
+		/*
+		int i=1;
+		while(i<=5)
+		{
+			System.out.println(i);
+			i++;
+		}
+	}
+}
+
+*/
+		/*int i=1;
+do
+		{
+	System.out.println(i);
+	i++;
+		}
+while(i<=5);
+}
+*/
+		/*
+		int n=12134;
+		int r,rev=0;
+		while(n!=0)
+		{
+			r=n%10;
+			n=n/10;
+			rev=rev*10+r;
+		}
+		System.out.println("reverse of the number is"+rev);
+	}
+}
+*/
+		//maths class
+		/*
+		System.out.println(Maths.max(2,3));
+		System.out.println(Maths.min(8,9));
+		System.out.println(Maths.sqrt(81));
+		*/
+		/*
+		System.out.println("hello world");
+	}
+}
+*/
+		/*
+		int a,b;
+		System.out.println("enter the two numbers\n");
+		Scanner Scan=new Scanner(System.in);
+		a=Scan.nextInt();
+
+
+		b=Scan.nextInt();
+		float sum=a+b;
+		System.out.println("sum of the numbers is="+sum);
+	}
+	
+	
+}
+*/
+		/*
+		int n;
+		System.out.println("enter the number\n");
+		Scanner Scan=new Scanner(System.in);
+		n=Scan.nextInt();
+		if(n%2==0)
+		{
+			System.out.println("even number");
+			
+		}
+		else
+		{
+			System.out.println("odd number");
+		}
+	}
+}
+*/
+		/*
+		int n,r,t,rev=0;
+		System.out.println("enter the number\n");
+		Scanner Scan=new Scanner(System.in);
+		n=Scan.nextInt();
+		t=n;
+		while(n>0)
+		{
+			r=n%10;
+			n=n/10;
+			rev=rev*10+r;
+		}
+		if(rev==t)
+		{
+			System.out.println("palindrome number");
+		}
+		else
+		{
+			System.out.println("not a palindrome number");
+		}
+	}
+}
+*/
+		/*
+		int n,t,r,rev=0;
+		System.out.println("enter the number\n");
+		Scanner Scan=new Scanner(System.in);
+		n=Scan.nextInt();
+		t=n;
+		while(n>0)
+		{
+			r=n%10;
+			rev=rev+r*r*r;
+			n=n/10;
+		}
+		if(rev==t)
+		{
+			System.out.println("armstrong number");
+		}
+		else
+		{
+			System.out.println("not a armstrong number");
+		}
+	}
+}
+*/
+		/*
+		System.out.println("harry potter");
+	}
+}
+*/
+		/*
+		int n,i;
+		System.out.println("enter the number\n");
+		Scanner Scan=new Scanner(System.in);
+		n=Scan.nextInt();
+		for(i=1;i<=10;i++)
+		{
+			System.out.println(n*i);
+		}
+	}
+}
+*/
+		/*
+	System.out.println("hello kim");
+	}
+}
+*/
+		/*
+		System.out.println("hello world");
+	}
+}
+*/
+		/*
+		int a,b;
+		Scanner Scan=new Scanner(System.in);
+		a=Scan.nextInt();
+		b=Scan.nextInt();
+		float sum=a+b;
+		System.out.println("sum of the two numbers"+sum);
+	}
+}
+*/
+		/*
+		System.out.println("hello kim");
+	}
+}
+*/
+		/*
+		int age;
+		System.out.println("enter the age\n");
+		Scanner Scan=new Scanner(System.in);
+		age=Scan.nextInt();
+		if(age>=18)
+		{
+			System.out.println("you can drive");
+		}
+		else
+		{
+			System.out.println("you cannot drive");
+		}
+		}
+}
+*/
+		/*
+		int choice;
+		System.out.println("\n1.for name\n2.for age\n3 for gender");
+		System.out.println("enter the choice\n");
+		Scanner Scan=new Scanner(System.in);
+		choice=Scan.nextInt();
+		switch(choice)
+		{
+		case 1:
+			System.out.println("Pranav ranjan");
+			break;
+		case 2:
+			System.out.println(22);
+			break;
+		case 3:
+			System.out.println("male");
+			break;
+			default:
+				System.out.println("you are not in the list");
+		}
+	}
+}
+*/
+		/*
+		int a=1,b=2;
+		System.out.println("values before the swapping");
+		System.out.println(a);
+		System.out.println(b);
+		a=a+b;
+		b=a-b;
+		a=a-b;
+		System.out.println("after swapping  the values are:");
+		System.out.println(a);
+		System.out.println(b);
+	}
+}
+*/
+		/*
+		
+		String name1="harry";
+		String name2="potter";
+		System.out.println(name1);
+		System.out.println(name1.length());
+		System.out.println(name1.toUpperCase());
+		System.out.println(name1.toLowerCase());
+		System.out.println(name1.indexOf(name1));
+		System.out.println(name1+name2);
+		System.out.println(Name.CLASS_PATH);
+	}
+	*/
+		/*
+	//maths class
+		
+		System.out.println(Math.max(6,8));
+		System.out.println(Math.min(6,8));
+		System.out.println(Math.sqrt(64));
+		System.out.println(Math.abs(6));
+		System.out.println(Math.abs(-6));
+	}
+}
+*/
+		/*
+		int year;
+		System.out.println("enter the year\n");
+	Scanner Scan=new Scanner(System.in);
+	if((year%400==0)||((year%4==0)&&(year%100!=0)))
+	{
+		System.out.println("year is a leap year");
+	}
+	else
+	{
+		System.out.println("year is not a leap year");
+
+	}
+	}
+}
+
+*/
+		/*
+	int n,i,a=0,b=1,c;
+	System.out.println("enter the elements\n");
+	Scanner Scan=new Scanner(System.in);
+	n=Scan.nextInt();
+	
+	for(i=1;i<=n;i++)
+	{
+		c=a+b;
+		System.out.println(a);
+		a=b;
+		b=c;
+		
+	}
+	}
+}
+*/
+		/*
+		int a,b;
+		System.out.println("enter the numebrs\n");
+		Scanner Scan=new Scanner(System.in);
+		a=Scan.nextInt();
+		b=Scan.nextInt();
+		if(a>b)
+		{
+			System.out.println("a is greater number");
+		}
+		else
+		{
+			System.out.println("b is greater number");
+		}
+	}
+}
+*/
+		/*
+		int arr[];
+		int i,n;
+		Scanner Scan=new Scanner(System.in);
+		n=Scan.nextInt();
+		for(i=1;i<=5;i++)
+		{
+			System.out.println("enter the elements\n");
+			
+		}
+	}
+}
+*/
+		/*
+	
+		System.out.println("Hello world");
+	}
+}*/
+		/*
+		int a=10,b=20;
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a%b);
+		System.out.println(a/b);
+	}
+}
+*/
+		/*
+		int n=2;
+		if(n%2==0)
+		{
+			System.out.println("even number");
+			
+		}
+		else
+		{
+			System.out.println("odd number");
+		}
+	
+	}
+}
+*/
+		/*
+		int n=9;
+		if(n>0)
+			System.out.println("positive number");
+		else
+		{
+			System.out.println("negative number");
+		}
+	}
+}
+*/
+		/*
+		
+		int n=5;
+		int i,fact=1;
+		for(i=1;i<=n;i++)
+		{
+			fact=fact*i;
+		}
+		System.out.println(fact);
+	}
+}
+*/
+		/*
+int n=123;
+int r,rev=0;
+while(n!=0)
+{
+	r=n%10;
+	n=n/10;
+	rev=rev*10+r;
+	
+}
+System.out.println("reverse of the number is="+rev);
+	}
+}
+*/
+		/*
+		
+		int a,b;
+		Scanner Scan=new Scanner(System.in);
+		a=Scan.nextInt();
+		b=Scan.nextInt();
+		float sum;
+		sum=a+b;
+		System.out.println(sum);
+	}
+}
+*/
+		/*
+		System.out.println("hello world");
+	}
+}
+*/
+		/*
+		int n,i,count=0;
+	System.out.println("enter teh number\n");
+	Scanner Scan=new Scanner(System.in);
+	n=Scan.nextInt();
+	for(i=1;i<=n;i++)
+	{
+		if(n%i==0)
+		{
+			count++;
+		}
+	}
+	if(count==2)
+	{
+		System.out.println("prime number");
+	}
+	else
+	{
+		System.out.println("not a prime number");
+	}
+	}
+}
+*/
+		/*
+	//loops
+	int i;
+	for(i=1;i<=10;i++)
+	{
+		System.out.println("hello world");
+	}
+	}
+}
+*/
+		/*
+	//while loop
+		int i=1;
+		while(i<=5)
+		{
+			System.out.println(i);
+			i++;
+		}
+			
+		}
+}
+*/
+		/*
+		//do while//
+		int i=1;
+		do
+		{
+			System.out.println(i);
+			i++;
+		}
+		while(i<=10);}
+}
+/*
+int age;
+System.out.println("enter the age\n");
+Scanner Scan=new Scanner(System.in);
+age=Scan.nextInt();
+if(age>=18)
+{
+	System.out.println("you can vote");
+}
+else
+{
+	System.out.println("you cannot vote");
+}
+	}
+}
+*/
+		/*
+		int n,r,rev=0,t;
+		System.out.println("enter the number\n");
+		Scanner Scan=new Scanner(System.in);
+		n=Scan.nextInt();
+		t=n;
+		while(n>0)
+		{
+			r=n%10;
+			n=n/10;
+			rev=rev+r*r*r;
+		}
+			if(rev==t)
+			{
+				System.out.println("Armstrong number");
+			}
+			else
+			{
+				System.out.println("not a Armstrong number");
+			}
+		}
+}
+*/
+		/*
+		int n,i,a=0,b=1,c;
+		System.out.println("enter the elements\n");
+		Scanner Scan=new Scanner(System.in);
+		n=Scan.nextInt();
+		for(i=1;i<=n;i++)
+		{
+			c=a+b;
+			System.out.println(a);
+			a=b;
+			b=c;
+		}
+	}
+}
+*/
+		/*
+		int a,b;
+		System.out.println("enter the two number\n");
+		Scanner Scan=new Scanner(System.in);
+		a=Scan.nextInt();
+		b=Scan.nextInt();
+		if(a>b)
+			System.out.println("a is greater number");
+		else
+		{
+			System.out.println("b is greater number");
+			}
+	}
+}
+*/
+		/*
+	float  marks;
+		System.out.println("enter the marks\n");
+		Scanner Scan=new Scanner(System.in);
+	marks=Scan.nextFloat();
+	if(marks>90&&marks<=100)
+	{
+		System.out.println("A++");
+	}
+	else if(marks>=80&&marks<=90)
+	{
+		System.out.println("B++");
+	}
+	else
+	{
+		System.out.println("work harder");
+	}
+	}
+}
+*/
+		//PROJECT FOR THE VACCINATION REGISTRATION//
+		 int choice,age,n,otp,yes,c;
+		 String name,gender,h;
+		 System.out.println("Enter your choice\n");
+		System.out.println("\n1.for the registration\n2.for the slot booking\n3.for the dose checking\n4.for the age verification\n5.for the  exit");
+		Scanner Scan=new Scanner(System.in);
+		choice=Scan.nextInt();
+		switch(choice)
+		
+		{
+		case 1:
+			System.out.println("-------------------------------------------");
+			System.out.println("!!!WELCOME TO THE REGISTTRATION PORTAL!!!!");
+			System.out.println("------------------------------------------");
+			System.out.println("\nEnter your name\n");
+			Scanner Scan2=new Scanner(System.in);
+			name=Scan.next();
+			System.out.println("\nEnter your age\n");
+			Scanner Scan4=new Scanner(System.in);
+			age=Scan.nextInt();
+			System.out.println("\nEnter your gender\n");
+			Scanner Scan6=new Scanner(System.in);
+			gender=Scan.next();
+			System.out.println("\nEnter your aadhar number\n");
+			Scanner Scan8=new Scanner(System.in);
+			n=Scan.nextInt();
+			System.out.println("\nEnter the otp to verify\n");
+			Scanner Scan1=new Scanner(System.in);
+			otp=Scan1.nextInt();
+			System.out.println("!!YOU HAVE SUCESSFULLY COMPLETED YOUR REGISTRATION!!");
+			System.out.println("------------------Thanks for visiting----------------");
+            break;
+		case 2:
+			System.out.println("You are looking for the slot");
+			System.out.println("Enter the name of  your nearby govt hospital\n");
+			h=Scan.next();
+            System.out.println("\n1.PMCH-100(covishield)\n2.GARDNER-150(covishield)\n3.IGIMS-200(covishield)\n4.NMCH-120(covishield)");
+            break;
+		case 3:
+			System.out.println("!!Plz enter the details\n!!");
+			System.out.println("\n1.for the yes\n2.for the no");
+			System.out.println("Enter whether you are taken first dose or not\n");
+            c=Scan.nextInt();
+            
+	        if(c==1)
+            {
+            	System.out.println("You need to wait for the 84 days ");
+            }
+            else
+            {
+            	System.out.println("You need to book the slot for the vaccination");
+            }
+            break;
+		case 4:
+			
+			System.out.println("Plz verify your age\n");
+			System.out.println("Enter your age\n");
+			 age=Scan.nextInt();
+            if(age>=45)
+            {
+            	System.out.println("You  are eligible to take the vacicne");
+            }
+            else if(age>=18&age<45)
+            {
+            	System.out.println("You all need to wait for your turn");
+            }
+            else
+            {
+            	System.out.println("You all are in under age below 18 years");
+            }
+            break;
+		case 5:
+			System.out.println("!!--------------------------THANKS FOR VISITING!!-----------------------------------");
+            break;
+            default:
+            	System.out.println("!!Plz choose the valid option for the process!!");
+            
+            
+            
+            
+            
+			
+		}
+	}
+}
